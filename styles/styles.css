@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    height: 60px;
+    border: none;
+    text-decoration: none;
+}
+
+.banner {
+    text-align: center;
+    padding: 100px;
+    background-image: linear-gradient(to top, rgba(7, 2, 2, 0), rgb(0, 0, 0)), url(/assests/images/image/donation0.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.banner-heading,
+.banner-description {
+    color: white;
+}
+
+.banner-description {
+    margin: auto;
+    width: 40%;
+    padding: 20px 0;
+}
+
+.donate {
+    margin: auto;
+    text-align: center;
+}
+
+.donate-title {
+    margin: 120px 0 20px 0;
+}
+
+.donate-description {
+    margin: 0 auto;
+    width: 30%;
+}
+
+.donate-button {
+    color: #726b6b;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+    background: #f1eeec;
+    height: 60px;
+    border: none;
+    text-decoration: none;
+    margin: 30px 10px;
+}
+
+.donate-input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+  }
+  
+  :-moz-placeholder {
+    text-align: center;
+  }
